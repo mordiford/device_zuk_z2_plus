@@ -5,9 +5,9 @@
    "branch": "cm-14.1"
  },
  {
-   "repository": "ontherunvaro/android_kernel_zuk_msm8996",
+   "repository": "mordiford/miyu-z2-kernel",
    "target_path": "kernel/zuk/msm8996",
-   "branch": "cm-14.1"
+   "branch": "miyu-v1"
  },
  {
     "repository": "LineageOS/android_packages_apps_FlipFlap",
