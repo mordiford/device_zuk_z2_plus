@@ -166,3 +166,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # TimeService
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.timed.enable=true
+
+# Hardware Info
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.device.chipset=Qualcomm MSM8996 Snapdragon 820 \
+    ro.device.cpu=Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo) \
+    ro.device.gpu=Adreno 530 \
+    ro.device.rear_cam=13 MP \
+    ro.device.front_cam=8 MP \
+    ro.device.screen_res=1080 x 1920
+    
