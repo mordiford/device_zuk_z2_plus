@@ -1,12 +1,17 @@
 [
  {
-   "repository": "LineageOS/android_device_qcom_common",
-   "target_path": "device/qcom/common",
-   "branch": "cm-14.1"
+   "repository": "mordiford/miyu-z2-kernel",
+   "target_path": "kernel/zuk/msm8996",
+   "branch": "miyu-v1"
  },
  {
-   "repository": "z2-dev/android_kernel_zuk_msm8996",
-   "target_path": "kernel/zuk/msm8996",
+   "repository": "mordiford/device_zuk_msm8996-common",
+   "target_path": "device/zuk/msm8996-common",
+   "branch": "n7.1"
+ },
+ {
+   "repository": "LineageOS/android_device_qcom_common",
+   "target_path": "device/qcom/common",
    "branch": "cm-14.1"
  },
  {
