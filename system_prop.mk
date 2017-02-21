@@ -176,3 +176,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.device.front_cam=8 MP \
     ro.device.screen_res=1080 x 1920
     
+# Miracast
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.debug.wfd.enable=1
