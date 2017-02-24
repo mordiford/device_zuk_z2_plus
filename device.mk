@@ -274,6 +274,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     sensors.msm8996
 
+# FlipFlap
+PRODUCT_PACKAGES += \
+    FlipFlap
+
 # Wifi
 PRODUCT_PACKAGES += \
     ipacm \
