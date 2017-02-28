@@ -1,1 +1,1 @@
-add_lunch_combo lineage_z2_plus-user
+add_lunch_combo aicp_z2_plus-userdebug
