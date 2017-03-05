@@ -1,14 +1,15 @@
 [
  {
-   "repository": "android_kernel_zuk_msm8996",
-   "target_path": "kernel/zuk/msm8996"
+   "repository": "mordiford/miyu-z2-kernel",
+   "target_path": "kernel/zuk/msm8996",
+   "branch": "miyu-v1"
  },
  {
-   "repository": "android_vendor_zuk_z2_plus",
+   "repository": "ontherunvaro/android_vendor_zuk_z2_plus",
    "target_path": "vendor/zuk/z2_plus"
  },
  {
-   "repository": "android_device_qcom_common",
+   "repository": "LineageOS/android_device_qcom_common",
    "target_path": "device/qcom/common"
  },
  {
@@ -16,7 +17,11 @@
    "target_path": "vendor/qcom/binaries"
  },
  {
-   "repository": "android_packages_resources_devicesettings",
+   "repository": "LineageOS/android_packages_apps_FlipFlap",
+   "target_path": "packages/apps/FlipFlap"
+ },
+ {
+   "repository": "LineageOS/android_packages_resources_devicesettings",
    "target_path": "packages/resources/devicesettings"
  }
 ]
