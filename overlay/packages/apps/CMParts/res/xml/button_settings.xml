@@ -81,6 +81,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="assist_key"
         android:title="@string/hardware_keys_utouch_settings_title">
 
         <ListPreference
