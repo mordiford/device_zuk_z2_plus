@@ -1,5 +1,5 @@
 # Audio
-audio_hal.period_size=192
+audio_hal.period_size=480
 audio.deep_buffer.media=true
 audio.offload.buffer.size.kb=32
 audio.offload.gapless.enabled=true
