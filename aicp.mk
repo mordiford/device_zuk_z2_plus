@@ -40,6 +40,11 @@ PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=z2_plus PRODUCT_NAME=z2_plus
 
 TARGET_VENDOR := zuk
 
+# Fingerprint
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT="ZUK/z2_plus/z2_plus:6.0.1/MMB29M/1.9.077_160617:user/release-keys" \
+    PRIVATE_BUILD_DESC="z2_plus-user 6.0.1 MMB29M 1.9.077_160617 release-keys"
+
 # AICP Device Maintainers
 PRODUCT_BUILD_PROP_OVERRIDES += \
         DEVICE_MAINTAINERS="lindwurm"
