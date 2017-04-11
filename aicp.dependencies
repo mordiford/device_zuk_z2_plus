@@ -1,0 +1,32 @@
+[
+ {
+   "repository": "LineageOS/android_device_qcom_common",
+   "target_path": "device/qcom/common",
+   "branch": "cm-14.1"
+ },
+ {
+   "repository": "z2-dev/android_kernel_zuk_msm8996",
+   "target_path": "kernel/zuk/msm8996",
+   "branch": "cm-14.1"
+ },
+ {
+    "repository": "LineageOS/android_packages_apps_FlipFlap",
+    "target_path": "packages/apps/FlipFlap",
+    "branch": "cm-14.1"
+ },
+ {
+   "repository": "LineageOS/android_packages_resources_devicesettings",
+   "target_path": "packages/resources/devicesettings",
+   "branch": "cm-14.1"
+ },
+ {
+   "repository": "z2-dev/proprietary_vendor_zuk_z2_plus",
+   "target_path": "vendor/zuk/z2_plus",
+   "branch": "cm-14.1"
+ },
+ {
+   "repository": "LineageOS/android_hardware_sony_timekeep",
+   "target_path": "hardware/sony/timekeep",
+   "branch": "cm-14.1"
+ }
+]
