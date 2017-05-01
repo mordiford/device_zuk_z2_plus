@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
 		Gello
 
-
 # Camera
 PRODUCT_PACKAGES += \
     Snap
@@ -142,10 +141,6 @@ PRODUCT_PACKAGES += \
     memtrack.msm8996 \
     liboverlay \
     libtinyxml
-
-# Doze mode
-PRODUCT_PACKAGES += \
-    ZukDoze
 
 # Fingerprint
 PRODUCT_PACKAGES += \
