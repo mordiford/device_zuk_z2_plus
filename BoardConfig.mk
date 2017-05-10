@@ -118,6 +118,9 @@ TARGET_CAMERASERVICE_CLOSES_NATIVE_HANDLES := true
 # Charger
 BOARD_CHARGER_ENABLE_SUSPEND := true
 
+# Enable real time lockscreen charging current values
+BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
+
 # CM Hardware
 BOARD_HARDWARE_CLASS += $(PLATFORM_PATH)/cmhw
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/touch/tp_dev/gesture_on"
