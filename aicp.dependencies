@@ -1,0 +1,37 @@
+[
+  {
+    "repository": "AICP/device_zuk_msm8996-common",
+    "target_path": "device/zuk/msm8996-common",
+    "branch": "o8.1"
+  },
+  {
+    "repository": "AICP/kernel_zuk_msm8996",
+    "target_path": "kernel/zuk/msm8996",
+    "branch": "o8.1"
+  },
+  {
+    "repository": "LineageOS/android_device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch": "staging/lineage-15.1"
+  },
+  {
+     "repository": "LineageOS/android_packages_apps_FlipFlap",
+     "target_path": "packages/apps/FlipFlap",
+     "branch": "staging/lineage-15.1"
+  },
+  {
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "staging/lineage-15.1"
+  },
+  {
+    "repository": "AICP/proprietary_vendor_zuk",
+    "target_path": "vendor/zuk/",
+    "branch": "o8.1"
+  },
+  {
+    "repository": "LineageOS/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "branch": "staging/lineage-15.1"
+  }
+]
