@@ -20,11 +20,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from z2_plus device
 $(call inherit-product, device/zuk/z2_plus/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common AICP stuff.
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_z2_plus
+PRODUCT_NAME := aicp_z2_plus
 PRODUCT_DEVICE := z2_plus
 PRODUCT_BRAND := ZUK
 PRODUCT_MODEL := Z2 Plus
@@ -43,3 +43,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := "ZUK/z2_plus/z2_plus:7.0/NRD90M/3.1.117_171110:user/release-keys"
 
 TARGET_VENDOR := zuk
+
+# AICP Device Maintainers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Faiz Authar (faizauthar12)"
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1080
+-include vendor/aicp/configs/bootanimation.mk
